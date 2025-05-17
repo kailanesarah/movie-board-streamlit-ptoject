@@ -15,19 +15,7 @@
   </p>
 
   <p>
-    Movie Board app is an interactive dashboard built with <strong>Streamlit</strong> that consumes a <strong>Movie API</strong>. 
-    The application allows you to <strong>view charts and tables</strong> with data fetched via <code>GET</code> requests, 
-    and also enables <strong>adding new data</strong> via <code>POST</code> requests. 
-    The entire system is protected by <strong>token-based authentication</strong>.
-  </p>
-
-  <hr />
-
-  <h2>🚀 Demo</h2>
-
-  <p>
-    🔗 Access the hosted project on Render:<br />
-    <a href="https://movie-board.onrender.com" target="_blank" rel="noopener noreferrer">https://movie-board.onrender.com</a>
+    Movie Board App is an interactive dashboard built with Streamlit as part of the Pycode BR course. The application consumes a Movie API, allowing users to view charts and tables through GET requests and add new data using POST requests. The entire system is secured with token-based authentication.
   </p>
 
   <hr />
@@ -75,8 +63,8 @@
   <h2>🧪 How to Run Locally</h2>
   <pre><code>
 # Clone the repository
-git clone https://github.com/kailanesarah/movie-board-app-streamlit.git
-cd movie-board-app-streamlit
+git clone https://github.com/kailanesarah/movie-board-streamlit-project.git
+cd movie-board-streamlit-project
 
 # Create and activate virtual environment
 python -m venv venv
@@ -94,7 +82,7 @@ streamlit run app.py
 
   <h2>✅ Folder Structure</h2>
   <pre>
-movie-board-app-streamlit/
+movie-board-streamlit-project/
 │
 ├── app.py                         &lt;!-- Main app file initializing Streamlit --&gt;
 ├── requirements.txt               &lt;!-- Main dependencies --&gt;
